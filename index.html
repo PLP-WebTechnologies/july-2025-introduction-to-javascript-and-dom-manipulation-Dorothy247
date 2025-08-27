@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pageant Competition Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> Pageant Competition Registration </h1>
+
+  <section>
+    <h2>Enter the Competition</h2>
+    <label>Name:</label>
+    <input type="text" id="nameInput" placeholder="Enter your name" title="Name"><br><br>
+
+    <label>Age:</label>
+    <input type="number" id="ageInput" placeholder="Enter your age" title="Age"><br><br>
+
+    <button onclick="registerContestant()">Register</button>
+    <p id="registrationResult"></p>
+  </section>
+
+  <section>
+    <h2>Registered Contestants</h2>
+    <button onclick="showContestants()">Show Contestants</button>
+    <ul id="contestantList"></ul>
+  </section>
+
+  <section>
+    <h2>Audience Interaction</h2>
+    <button id="cheerBtn">Cheer for Contestants!</button>
+    <p id="cheerText">Waiting for applause...</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

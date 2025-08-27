@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf2f8;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #0c0c0c;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px solid #f0abfc;
+  border-radius: 10px;
+}
+
+.highlight {
+  background-color: rgb(255, 0, 102);
+  font-weight: bold;
+}
